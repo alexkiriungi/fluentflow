@@ -3,8 +3,11 @@ import { StickyWrapper } from '@/components/stickywrapper'
 import React from 'react'
 import { Header } from './header';
 import { UserProgress } from '@/components/userprogress';
+import { getUserProgress } from '@/db/queries';
 
-export default function LearnPage() {
+export const LearnPage = async () => {
+    const userProgressData = getUserProgress();
+    const [ userProgress ] = await Promise.all([userProgressData])
   return (
     <div className='flex flex-row-reverse gap-[48px] px-6'>
         <StickyWrapper>
