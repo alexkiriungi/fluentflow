@@ -1,4 +1,4 @@
-import { MobileHeader } from "@/components/mobileheader";
+import { MobileHeader } from "@/components/mobile-header";
 import { Sidebar } from "@/components/sidebar";
 import { Toaster } from "@/components/ui/sonner";
 

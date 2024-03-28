@@ -1,8 +1,8 @@
-import { FeedWrapper } from '@/components/feedwrapper'
-import { StickyWrapper } from '@/components/stickywrapper'
+import { FeedWrapper } from '@/components/feed-wrapper'
+import { StickyWrapper } from '@/components/sticky-wrapper'
 import React from 'react'
 import { Header } from './header';
-import { UserProgress } from '@/components/userprogress';
+import { UserProgress } from '@/components/user-progress';
 import { getUserProgress } from '@/db/queries';
 import { redirect } from 'next/navigation';
 

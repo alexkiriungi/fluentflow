@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ClerkLoading, ClerkLoaded, UserButton } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
-import { SidebarItem } from "./sidebaritem";
+import { SidebarItem } from "./sidebar-item";
 type Props = {
     className?: string;
 }
