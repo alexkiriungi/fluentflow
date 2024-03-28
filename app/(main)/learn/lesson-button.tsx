@@ -84,7 +84,7 @@ export const LessonButton = ({
               }}
             >
               <Button
-                size="rounded"
+                size="rounded" // @ts-ignore
                 variant={locked ? "locked" : "secondary"}
                 className="h-[70px] w-[70px] border-b-8"
               >
@@ -102,7 +102,7 @@ export const LessonButton = ({
           </div>
         ) : (
           <Button
-            size="rounded"
+            size="rounded" // @ts-ignore
             variant={locked ? "locked" : "secondary"}
             className="h-[70px] w-[70px] border-b-8"
           >
